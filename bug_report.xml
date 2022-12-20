@@ -1,1 +1,13 @@
-
+<bug_repot>
+  <ID>1</ID>
+  <title>При клике на кнопку 'Trade now' не происходит переход на трейдинговую платформу</title>
+  <preconditions>Пользователь не зарегестрирован</preconditions>
+     <STR>
+        <1>Перейти на сайт 'Capital com</1>
+        <2>Клик по кнопке 'Trade now' в хэдере главной страницы</2>
+  <expected_result>При клике на кнопку 'Trade now' происходит переход на трейдинговую платформу</expected_result>
+  <actual result>Переход на трейдинговую платформу не происходит</actual_result>
+  <severyty>Hight</severyty>
+  <environment>Laptop, Intel Core i5 7th Gen, x64, 2.7GHz, RAM 8"</envirnoment>
+  <attachments></attachments>
+  <reproducibility>Usually</reproducibility>
